@@ -35,14 +35,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8D15AC370486D014006FF6A4 /* Fluidium.app */;
+			remoteGlobalIDString = 8D15AC370486D014006FF6A4;
 			remoteInfo = Fluidium;
 		};
 		D31B7D7B119121E70097CA82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D38423141102D50D00605809 /* Fluidium+PlugIns */;
+			remoteGlobalIDString = D38423141102D50D00605809;
 			remoteInfo = "Fluidium+PlugIns";
 		};
 /* End PBXContainerItemProxy section */
