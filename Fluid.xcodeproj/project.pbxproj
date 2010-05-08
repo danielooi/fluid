@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D30CC98110FC33FE0036D2A3 /* FluidWhitelistProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D30CC98010FC33FE0036D2A3 /* FluidWhitelistProvider.m */; };
+		D30CC9A410FC36DE0036D2A3 /* SpecialCases.plist in Resources */ = {isa = PBXBuildFile; fileRef = D30CC9A310FC36DE0036D2A3 /* SpecialCases.plist */; };
+		D32050A810F995FE00CFC731 /* FUUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D32050A710F995FE00CFC731 /* FUUtils.m */; };
+		D329C9D410F8668900B3DF8B /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = D329C9D310F8668900B3DF8B /* IconFamily.m */; };
+		D35E79F10DA5DDAB00420AA0 /* FluidPlugIn.icns in Resources */ = {isa = PBXBuildFile; fileRef = D35E79F00DA5DDAB00420AA0 /* FluidPlugIn.icns */; };
+		D3B9038910827EEC005002B1 /* Fluid.icns in Resources */ = {isa = PBXBuildFile; fileRef = D3B9038810827EEC005002B1 /* Fluid.icns */; };
+		D3D23C7F0D0B066700734692 /* done.mov in Resources */ = {isa = PBXBuildFile; fileRef = D3D23C7E0D0B066700734692 /* done.mov */; };
+		D3D23C900D0B084E00734692 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D23C8F0D0B084E00734692 /* WebKit.framework */; };
+		D3DF15210CF7B5E800E023F9 /* FluidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF15200CF7B5E800E023F9 /* FluidAppDelegate.m */; };
+		D3DF15510CF88F7C00E023F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DF15500CF88F7C00E023F9 /* main.m */; };
+		D3E9C4CD10F91BCB00C405D5 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = D329C99510F8642700B3DF8B /* Sparkle.framework */; };
+		D3E9C4DA10F91C4100C405D5 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D329C99510F8642700B3DF8B /* Sparkle.framework */; };
+		D3E9C7AD10F95F9300C405D5 /* FluidWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9C7AC10F95F9300C405D5 /* FluidWindowController.m */; };
+		D3E9C7B610F95FDD00C405D5 /* FluidWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E9C7B410F95FDD00C405D5 /* FluidWindow.xib */; };
+		D3E9C7DC10F9636900C405D5 /* FluidPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9C7DB10F9636900C405D5 /* FluidPreferencesWindowController.m */; };
+		D3E9C84310F96B2900C405D5 /* FluidWebPageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9C84210F96B2900C405D5 /* FluidWebPageLoader.m */; };
+		D3E9C84F10F96E1F00C405D5 /* NSString+FUAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9C84E10F96E1F00C405D5 /* NSString+FUAdditions.m */; };
+		D3F81FC10F54FAAE00B7DC48 /* FluidMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F81FBF0F54FAAE00B7DC48 /* FluidMainMenu.xib */; };
+		D3F81FC60F54FB4600B7DC48 /* FluidPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F81FC40F54FB4600B7DC48 /* FluidPreferencesWindow.xib */; };
+		D3F820AC0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F820AA0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31B7D63119121240097CA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D15AC370486D014006FF6A4 /* Fluidium.app */;
+			remoteInfo = Fluidium;
+		};
+		D31B7D7B119121E70097CA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D38423141102D50D00605809 /* Fluidium+PlugIns */;
+			remoteInfo = "Fluidium+PlugIns";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D392B1EE0D13743400EAB378 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3E9C4CD10F91BCB00C405D5 /* Sparkle.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Fluid_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fluid_Prefix.pch; path = src/Fluid_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = res/conf/Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Fluid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30CC97F10FC33FE0036D2A3 /* FluidWhitelistProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FluidWhitelistProvider.h; path = src/FluidWhitelistProvider.h; sourceTree = "<group>"; };
+		D30CC98010FC33FE0036D2A3 /* FluidWhitelistProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FluidWhitelistProvider.m; path = src/FluidWhitelistProvider.m; sourceTree = "<group>"; };
+		D30CC9A310FC36DE0036D2A3 /* SpecialCases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SpecialCases.plist; path = ../fluidium/Fluidium/res/conf/SpecialCases.plist; sourceTree = "<group>"; };
+		D32050A710F995FE00CFC731 /* FUUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUUtils.m; path = ../fluidium/Fluidium/src/FUUtils.m; sourceTree = "<group>"; };
+		D32804AF0D241CE7008C9B3A /* Fluidium.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Fluidium.app; path = /Users/itod/work/git/fluidium/Fluidium/build/Release/Fluidium.app; sourceTree = "<absolute>"; };
+		D329C99510F8642700B3DF8B /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../fluidium/Fluidium/lib/Sparkle/Sparkle.framework; sourceTree = "<group>"; };
+		D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Fluidium.xcodeproj; path = ../fluidium/Fluidium/Fluidium.xcodeproj; sourceTree = "<group>"; };
+		D329C9D210F8668900B3DF8B /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = src/IconFamily.h; sourceTree = "<group>"; };
+		D329C9D310F8668900B3DF8B /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = src/IconFamily.m; sourceTree = "<group>"; };
+		D33B1DA51116AE4800F754AD /* FUUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUUtils.h; path = ../fluidium/Fluidium/include/Fluidium/FUUtils.h; sourceTree = "<group>"; };
+		D35E79F00DA5DDAB00420AA0 /* FluidPlugIn.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = FluidPlugIn.icns; path = res/icons/FluidPlugIn.icns; sourceTree = "<group>"; };
+		D3B9038810827EEC005002B1 /* Fluid.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Fluid.icns; path = res/icons/Fluid.icns; sourceTree = "<group>"; };
+		D3D23C7E0D0B066700734692 /* done.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = done.mov; path = res/sound/done.mov; sourceTree = "<group>"; };
+		D3D23C8F0D0B084E00734692 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		D3DF151F0CF7B5E800E023F9 /* FluidAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FluidAppDelegate.h; path = src/FluidAppDelegate.h; sourceTree = "<group>"; };
+		D3DF15200CF7B5E800E023F9 /* FluidAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FluidAppDelegate.m; path = src/FluidAppDelegate.m; sourceTree = "<group>"; };
+		D3DF15500CF88F7C00E023F9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		D3E9C7AB10F95F9300C405D5 /* FluidWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FluidWindowController.h; path = src/FluidWindowController.h; sourceTree = "<group>"; };
+		D3E9C7AC10F95F9300C405D5 /* FluidWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FluidWindowController.m; path = src/FluidWindowController.m; sourceTree = "<group>"; };
+		D3E9C7B510F95FDD00C405D5 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FluidWindow.xib; sourceTree = "<group>"; };
+		D3E9C7DA10F9636900C405D5 /* FluidPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FluidPreferencesWindowController.h; path = src/FluidPreferencesWindowController.h; sourceTree = "<group>"; };
+		D3E9C7DB10F9636900C405D5 /* FluidPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FluidPreferencesWindowController.m; path = src/FluidPreferencesWindowController.m; sourceTree = "<group>"; };
+		D3E9C84110F96B2900C405D5 /* FluidWebPageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FluidWebPageLoader.h; path = src/FluidWebPageLoader.h; sourceTree = "<group>"; };
+		D3E9C84210F96B2900C405D5 /* FluidWebPageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FluidWebPageLoader.m; path = src/FluidWebPageLoader.m; sourceTree = "<group>"; };
+		D3E9C84D10F96E1F00C405D5 /* NSString+FUAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FUAdditions.h"; path = "../fluidium/Fluidium/src/NSString+FUAdditions.h"; sourceTree = "<group>"; };
+		D3E9C84E10F96E1F00C405D5 /* NSString+FUAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FUAdditions.m"; path = "../fluidium/Fluidium/src/NSString+FUAdditions.m"; sourceTree = "<group>"; };
+		D3F81FC00F54FAAE00B7DC48 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FluidMainMenu.xib; sourceTree = "<group>"; };
+		D3F81FC50F54FB4600B7DC48 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FluidPreferencesWindow.xib; sourceTree = "<group>"; };
+		D3F820AA0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CarbonFSRefCreation.m"; path = "src/NSString+CarbonFSRefCreation.m"; sourceTree = "<group>"; };
+		D3F820AB0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "src/NSString+CarbonFSRefCreation.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D3D23C900D0B084E00734692 /* WebKit.framework in Frameworks */,
+				D3E9C4DA10F91C4100C405D5 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF151F0CF7B5E800E023F9 /* FluidAppDelegate.h */,
+				D3DF15200CF7B5E800E023F9 /* FluidAppDelegate.m */,
+				D3E9C7AB10F95F9300C405D5 /* FluidWindowController.h */,
+				D3E9C7AC10F95F9300C405D5 /* FluidWindowController.m */,
+				D3E9C84110F96B2900C405D5 /* FluidWebPageLoader.h */,
+				D3E9C84210F96B2900C405D5 /* FluidWebPageLoader.m */,
+				D30CC97F10FC33FE0036D2A3 /* FluidWhitelistProvider.h */,
+				D30CC98010FC33FE0036D2A3 /* FluidWhitelistProvider.m */,
+				D3E9C7DA10F9636900C405D5 /* FluidPreferencesWindowController.h */,
+				D3E9C7DB10F9636900C405D5 /* FluidPreferencesWindowController.m */,
+				D3F820AA0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.m */,
+				D3F820AB0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.h */,
+				D3E9C84D10F96E1F00C405D5 /* NSString+FUAdditions.h */,
+				D3E9C84E10F96E1F00C405D5 /* NSString+FUAdditions.m */,
+				D33B1DA51116AE4800F754AD /* FUUtils.h */,
+				D32050A710F995FE00CFC731 /* FUUtils.m */,
+				D329C9D210F8668900B3DF8B /* IconFamily.h */,
+				D329C9D310F8668900B3DF8B /* IconFamily.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D329C99510F8642700B3DF8B /* Sparkle.framework */,
+				D3D23C8F0D0B084E00734692 /* WebKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Fluid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Fluid */ = {
+			isa = PBXGroup;
+			children = (
+				D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Fluid;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF15500CF88F7C00E023F9 /* main.m */,
+				32CA4F630368D1EE00C91783 /* Fluid_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D32804AF0D241CE7008C9B3A /* Fluidium.app */,
+				D3B9038810827EEC005002B1 /* Fluid.icns */,
+				D35E79F00DA5DDAB00420AA0 /* FluidPlugIn.icns */,
+				D3D23C7E0D0B066700734692 /* done.mov */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				D30CC9A310FC36DE0036D2A3 /* SpecialCases.plist */,
+				D3F81FBF0F54FAAE00B7DC48 /* FluidMainMenu.xib */,
+				D3E9C7B410F95FDD00C405D5 /* FluidWindow.xib */,
+				D3F81FC40F54FB4600B7DC48 /* FluidPreferencesWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31B7D5D119121240097CA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31B7D64119121240097CA82 /* Fluidium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Fluid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Fluid" */;
+			buildPhases = (
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D1107290486CEB800E47090 /* Resources */,
+				D392B1EE0D13743400EAB378 /* Copy Frameworks */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				D31B7D9C1191C3430097CA82 /* Copy Fluidium.app */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31B7D7C119121E70097CA82 /* PBXTargetDependency */,
+			);
+			name = Fluid;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Fluid;
+			productReference = 8D1107320486CEB800E47090 /* Fluid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fluid" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Fluid */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D31B7D5D119121240097CA82 /* Products */;
+					ProjectRef = D329C99710F8643B00B3DF8B /* Fluidium.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Fluid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D31B7D64119121240097CA82 /* Fluidium.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Fluidium.app;
+			remoteRef = D31B7D63119121240097CA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B9038910827EEC005002B1 /* Fluid.icns in Resources */,
+				D35E79F10DA5DDAB00420AA0 /* FluidPlugIn.icns in Resources */,
+				D3D23C7F0D0B066700734692 /* done.mov in Resources */,
+				D3F81FC10F54FAAE00B7DC48 /* FluidMainMenu.xib in Resources */,
+				D3F81FC60F54FB4600B7DC48 /* FluidPreferencesWindow.xib in Resources */,
+				D3E9C7B610F95FDD00C405D5 /* FluidWindow.xib in Resources */,
+				D30CC9A410FC36DE0036D2A3 /* SpecialCases.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D31B7D9C1191C3430097CA82 /* Copy Fluidium.app */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Fluidium.app";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf \"${TARGET_BUILD_DIR}/Fluid.app/Contents/Resources/Fluidium.app\"\ncp -pR \"../fluidium/Fluidium/build/${BUILD_STYLE}/Fluidium.app\" \"${TARGET_BUILD_DIR}/Fluid.app/Contents/Resources\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF15510CF88F7C00E023F9 /* main.m in Sources */,
+				D3DF15210CF7B5E800E023F9 /* FluidAppDelegate.m in Sources */,
+				D3F820AC0F551A4000B7DC48 /* NSString+CarbonFSRefCreation.m in Sources */,
+				D329C9D410F8668900B3DF8B /* IconFamily.m in Sources */,
+				D3E9C7AD10F95F9300C405D5 /* FluidWindowController.m in Sources */,
+				D3E9C7DC10F9636900C405D5 /* FluidPreferencesWindowController.m in Sources */,
+				D3E9C84310F96B2900C405D5 /* FluidWebPageLoader.m in Sources */,
+				D3E9C84F10F96E1F00C405D5 /* NSString+FUAdditions.m in Sources */,
+				D32050A810F995FE00CFC731 /* FUUtils.m in Sources */,
+				D30CC98110FC33FE0036D2A3 /* FluidWhitelistProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31B7D7C119121E70097CA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Fluidium+PlugIns";
+			targetProxy = D31B7D7B119121E70097CA82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3E9C7B410F95FDD00C405D5 /* FluidWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E9C7B510F95FDD00C405D5 /* English */,
+			);
+			name = FluidWindow.xib;
+			sourceTree = "<group>";
+		};
+		D3F81FBF0F54FAAE00B7DC48 /* FluidMainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F81FC00F54FAAE00B7DC48 /* English */,
+			);
+			name = FluidMainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D3F81FC40F54FB4600B7DC48 /* FluidPreferencesWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F81FC50F54FB4600B7DC48 /* English */,
+			);
+			name = FluidPreferencesWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../fluidium/Fluidium/lib/Sparkle\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/Fluid_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				INFOPLIST_FILE = res/conf/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Fluid;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					x86_64,
+					i386,
+					ppc,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../fluidium/Fluidium/lib/Sparkle\"";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = src/Fluid_Prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				INFOPLIST_FILE = res/conf/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Fluid;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Fluid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fluid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
